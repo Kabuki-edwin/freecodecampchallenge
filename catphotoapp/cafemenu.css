@@ -9,8 +9,10 @@ body{
     background-color: burlywood;
     margin-left:auto;
     margin-right:auto;
+    padding-left:20px;
+    padding-right:20px;
   }
-.flavor{
+.flavor,.dessert{
     text-align:left;
     width:75%;
   }

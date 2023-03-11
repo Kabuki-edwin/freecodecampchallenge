@@ -5,6 +5,15 @@ body{
   background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family:sans-serif;
   }
+h1{
+    font-size:40px;
+  }
+h2{
+    font-size:30px;
+  }
+.established{
+    font-style:italic;
+  }
 .menu{
     width:80%;
     background-color: burlywood;
@@ -12,6 +21,11 @@ body{
     margin-right:auto;
     padding:20px;
     max-width:500px;
+  }
+hr{
+    height:2px;
+    background-color:brown;
+    border-color:brown;
   }
 .flavor,.dessert{
     text-align:left;
@@ -24,3 +38,6 @@ body{
 .item p {
     display:inline-block;
    }
+   h1,h2{
+    font-family:Impact,serif;
+  }

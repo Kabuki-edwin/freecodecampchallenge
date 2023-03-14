@@ -6,10 +6,10 @@
        <h1 id="title">freecode camp survey form</h1>
     </head>
     <body>
-      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <h2 class="description" >Thank you for taking the time to help us improve the platform</h2>
       <form id="survey-form">
         <label id="name-label">Enter your name: 
-        <input id="name" required placeholder="your name">
+        <input id="name" type="name" required placeholder="your name">
         </label>
         <label id="email-label">Enter your email: 
         <input id="email" type="email" placeholder="email" required>
@@ -19,24 +19,64 @@
         </label>
         <label>Which option best describes your role?
         <select id="dropdown"> 
-          <option></option>
-          <option></option>
-          <option></option>
-          <option></option>
+          <option>Select current role</option>
+          <option>Student</option>
+          <option>Full time job</option>
+          <option>Full time learner</option>
+          <option>Prefer not to say</option>
         </select>
       </label>
-        <label>
-          <input type="radio" value="1" name="2">
-          <input type="radio" value="1" name="2">
-        </label>
-        <label>
-          <input type="checkbox" value="3">
-        </label>
-        <label>
-          <input type="checkbox" value="3">
-        </label>
-        <textarea></textarea>
-        <input type="submit" id="submit">
+        <label>Would you recommend freecode camp to a friend ?</label>
+        <p>
+          <input type="radio" value="1" name="2">Definitely
+        </p><br>
+        <p>
+          <input type="radio" value="1" name="2">Maybe
+        </p><br>
+        <p>
+          <input type="radio" value="1" name="2">Not realy
+        </p>
+        <label>What would you like to see improved?</label>
+        <p>
+          <input type="checkbox" value="3">Front-end projects
+        </p><br>
+        <p>
+          <input type="checkbox" value="3">Back-end projects
+        </p><br>
+        <p>
+          <input type="checkbox" value="3">Data visualisation
+        </p><br>
+        <p>
+          <input type="checkbox" value="3">Challenges
+        </p><br>
+        <p>
+          <input type="checkbox" value="3">Open source community
+        </p><br>
+        <p>
+          <input type="checkbox" value="3">Gitter help rooms
+        </p><br>
+        <p>
+          <input type="checkbox" value="3">Videos
+        </p><br>
+        <p>
+          <input type="checkbox" value="3">City meetups
+        </p><br>
+        <p>
+          <input type="checkbox" value="3">Wiki
+        </p><br>
+        <p>
+          <input type="checkbox" value="3">Forum
+        </p><br>
+        <p>
+          <input type="checkbox" value="3">Additional courses
+        </p><br>
+        <p>Any comments or suggestions?</p>
+        <p>
+        <textarea id="textarea" placeholder="Enter your comments here..."></textarea>
+      </p>
+        <p>
+        <button>Submit</button>
+        </p>
       </form>
     </body>
 </html>

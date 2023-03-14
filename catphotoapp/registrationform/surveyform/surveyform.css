@@ -3,11 +3,13 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     line-height: 1.4;
+    color: #ffffff;
 }
-#description{
+h2.description{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
+    color: #ffffff;
 }
 body{
     background: var(darkblue);
@@ -32,10 +34,12 @@ label{
 input{
     display: block;
     width: 700px;
-    min-width: 300px;
 }
 select{
     display: block;
+    width: 700px;
+    min-width: 300px;
+    min-height: 50px;
 }
 input[type="name"]{
     min-height: 50px;
@@ -46,4 +50,29 @@ input[type="email"]{
 input[type="number"]{
     min-height: 50px;
 }
-
+input[type="radio"]{
+    display: inline-block;
+    width: 30px;
+}
+p{
+    display: inline;
+    font-size: x-large;
+    padding-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type="checkbox"]{
+    display: inline-block;
+    width: 30px;
+}
+form textarea{
+    width: 700px;
+    height: 70px;
+    color:black;
+}
+ button{
+    width: 500px;
+    height: 30px;
+    padding-right: 30px;
+    background-color: greenyellow;
+    align-self:center;
+}

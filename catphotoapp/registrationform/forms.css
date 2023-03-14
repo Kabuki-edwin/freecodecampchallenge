@@ -23,8 +23,17 @@ form {
   }
 fieldset {
     border:none;
-    padding-top:2rem;
-    padding-bottom:2rem;
-    padding-right:0;
-    padding-left:0;
+    padding:2rem 0;
+    border-bottom:3px solid #3b3b4f;
+  }
+fieldset:last-of-type {
+    border-bottom:none;
+  }
+input, textarea, select{
+    margin:10px 0 0 0;
+    width:100%;
+  }
+.inline {
+    width: unset;
+    margin:0 0.5em 0 0;
   }

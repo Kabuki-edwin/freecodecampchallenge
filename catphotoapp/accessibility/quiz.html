@@ -41,7 +41,8 @@
                 <div class="question-block">
                     <p>1</p>
                     <fieldset class="question" name="html-question-one">
-                          <legend> Question 1</legend>
+                          <legend> The legend element represents a caption for the content of its
+                            parent fieldset element</legend>
                           <ul class="answers-list">
                 <li>
                   <label for="q1-a1">
@@ -60,7 +61,8 @@
             <p>2</p>
             <fieldset class="question" name="html-question-two">
               <legend>
-                Question 2
+                A label element nesting an input element is required to have a
+                for attribute with the same value as the input's id
               </legend>
               <ul class="answers-list">
                 <li>
@@ -80,13 +82,32 @@
             <section role="region" aria-labelledby="css-questions">
                 <h2 id="css-questions">CSS</h2>
                 <div class="formrow">
-                    <div class="question-block"></div>
+                    <div class="question-block">
+                        <label  for="option">Are you a frontend developer?</label>
+                    </div>
                     <div class="answer"></div>
-                    <div class="question-block"></div>
+                    <select  required name="option" id="option">
+                        <option value="">Select an option</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                       </select>
+                    <div class="question-block">
+                        <label id="txt">Do you have any questions:</label>
+                    </div>
                     <div class="answer"></div>
+                    <textarea rows="15" cols="60" placeholder="Who is flexbox..." id="txt" name="txt"></textarea>
                 </div>
+                <button type="submit">Send</button>
             </section>
         </form>
     </main>
+    <footer>
+        <address>
+            <a href="https://freecodecamp.org">freeCodeCamp</a><br />
+            San Francisco<br />
+            California<br />
+            USA
+        </address>
+    </footer>
   </body>
 </html>

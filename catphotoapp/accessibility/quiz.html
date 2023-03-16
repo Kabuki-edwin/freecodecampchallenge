@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="quiz.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="quiz">
+    <title>HTML/CSS quiz for beginners.</title>
   </head>
   <body>
-
+    <header>
+        <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" id="logo">
+        <h1>HTML/CSS Quiz</h1>
+        <nav>
+            <ul>
+              <li> <a>INFO</a></li>
+              <li><a>HTML</a></li>
+              <li><a>CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="https://freecodecamp.org/practice-project/accessibility-quiz" method="post">
+            <section role="region" aria-labelledby="student-info"><h2 id="student-info">Student Info</h2></section>
+            <section role="region" aria-labelledby="html-questions"><h2 id="html-questions">HTML</h2></section>
+            <section role="region" aria-labelledby="css-questions"><h2 id="css-questions">CSS</h2></section>
+        </form>
+    </main>
   </body>
 </html>

@@ -3,22 +3,32 @@
     justify-content:space-between;
     align-items:center;
     margin-bottom:20px;
+    flex-direction: row;
 }
 
 .progress-bar {
-    flex:1;
+    display: block;
     height:10px;
-    background-color:#ddd;
+    background-color:rgb(3, 255, 3);
     border-radius:5px;
     margin-right:20px;
+    width: 50vw;
 }
 
 .progress-bar .active {
-    background-color:#007bff;
+    background-color:rgb(2, 248, 2);
 }
 
 .step {
-    flex:1;
-    text-align:center;
-    
+    display: inline-flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #ccc;
+    border-radius:5px;
+    margin-right:20px;
+    cursor: pointer;
+}
+
+.step.active {
+    color: rgb(4, 250, 4);
 }

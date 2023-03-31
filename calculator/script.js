@@ -2,8 +2,9 @@
 
     let screen = document.querySelector('.screen');
     let buttons = document.querySelectorAll('.btn');
-    let equal = document.querySelector('.btn-equal');
     let clear = document.querySelector('.btn-clear');
+    let equal = document.querySelector('.btn-equal');
+    
 
     buttons.forEach(function (button) {
         button.addEventListener('click',function (e) {
@@ -12,8 +13,12 @@
         })
     });
 
-    equal .addEventListener('click', (e) => {
-            if(screen.value === '') {
+        clear.addEventListener('click', function (e) {
+            screen.value = "";
+            
+        })
+        equal.addEventListener('click', function(e){
+            if (screen.value === ' ') {
                 screen.value = "";
             } else {
                 let answer = eval(screen.value);

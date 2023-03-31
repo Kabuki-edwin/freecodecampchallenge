@@ -33,3 +33,13 @@ form input {
     text-align: right;
     pointer-events: none;
 }
+
+button {
+    flex: 0 0 22%;
+    width: 60px;
+    height: 52px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+
+}

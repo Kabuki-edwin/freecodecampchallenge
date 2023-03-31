@@ -30,4 +30,6 @@ form input {
     background: #000 ;
     font-size: 2rem;
     border: none;
+    text-align: right;
+    pointer-events: none;
 }

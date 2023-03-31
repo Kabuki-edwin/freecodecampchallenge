@@ -37,5 +37,5 @@ if (name == "Peter") {
 } else if (name = "Edwin") {
     console.log("Hello Edwin!");
 } else {
-    console.log("Hello guest");
+    console.log("Hello guest ");
 }

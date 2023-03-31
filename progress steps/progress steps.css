@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap');
 
 :root {
-    --line-border-fill:#3498db;
+    --line-border-fill:rgb(4, 253, 4);
     --line-border-empty:#e0e0e0;
 }
 
@@ -17,7 +17,8 @@ body {
     justify-content: center ;
     height: 100vh;
     overflow: hidden;
-    background-color: #f6f7fb;
+    background-image: url(412775.jpg);
+    background-position: center;
 }
 
 .container {
@@ -54,7 +55,7 @@ body {
     height: 4px;
     width: 0%;
     z-index: -1;
-    transition: .4s ease;
+    transition: 0.4s ease;
 }
 
 .circle {
@@ -67,7 +68,7 @@ body {
     align-items: center;
     justify-content: center;
     border: 3px solid var(--line-border-empty);
-    transition: .4s ease;
+    transition: 0.4s ease;
 }
 
 .circle.active {

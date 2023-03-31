@@ -20,3 +20,14 @@ body {
     overflow: hidden;
     background-color: #22252d;
 }
+
+form input {
+    width: 100%;
+    height:150px ;
+    border-radius:12px ;
+    padding: 1rem ;
+    color:#fff ;
+    background: #000 ;
+    font-size: 2rem;
+    border: none;
+}

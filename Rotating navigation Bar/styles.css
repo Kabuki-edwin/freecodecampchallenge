@@ -42,7 +42,7 @@ body {
     transition: transform 0.9s linear;
 }
 
-.container.container.show-nav.circle {
+.container.show-nav .circle {
     transform: rotate(-70deg);
 }
 

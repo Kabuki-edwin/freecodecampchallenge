@@ -68,7 +68,7 @@ body {
     transform-origin: top left;
 }
 
-.container.container.show-nav + nav {
+.container.container.show-nav + nav li {
     transform: translateX(0);
     transition-delay: 0.3s;
 }

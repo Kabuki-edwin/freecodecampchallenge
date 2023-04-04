@@ -171,7 +171,7 @@ function caseInSwitch(val) {
     return answer;
   }
   
-  console.log(chainToSwitch(7);)
+  console.log(chainToSwitch(7));
 
 //Returning boolean values from functions
   function isLess(a, b) {

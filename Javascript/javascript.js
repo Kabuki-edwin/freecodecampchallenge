@@ -171,4 +171,11 @@ function caseInSwitch(val) {
     return answer;
   }
   
-  chainToSwitch(7);
+  console.log(chainToSwitch(7);)
+
+//Returning boolean values from functions
+  function isLess(a, b) {
+    return (a < b)
+  }
+  
+console.log(isLess(10, 15));

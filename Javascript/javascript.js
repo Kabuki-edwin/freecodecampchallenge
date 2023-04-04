@@ -56,6 +56,8 @@ function testSize(num) {
     return "Change Me";
   }
 
+
+  
 //Golf code
   const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 
@@ -80,6 +82,8 @@ if (strokes == 1){
 
 console.log(golfScore(5, 8));
 
+
+
 //selecting from many options using switch statements
 function caseInSwitch(val) {
     let answer = "";
@@ -102,6 +106,8 @@ function caseInSwitch(val) {
   
   console.log(caseInSwitch(1));
 
+
+
   //default option in switch statements
   function switchOfStuff(val) {
     let answer = "";
@@ -123,6 +129,8 @@ function caseInSwitch(val) {
   }
   
   console.log(switchOfStuff(1));
+
+
 
 //Multiple identical options
   function sequentialSizes(val) {
@@ -149,6 +157,8 @@ function caseInSwitch(val) {
   
   console.log(sequentialSizes(1));
 
+
+
 //replacing if else statements with switch
   function chainToSwitch(val) {
     let answer = "";
@@ -173,9 +183,22 @@ function caseInSwitch(val) {
   
   console.log(chainToSwitch(7));
 
+
 //Returning boolean values from functions
   function isLess(a, b) {
     return (a < b)
   }
   
 console.log(isLess(10, 15));
+
+
+//Return early pattern for functions
+function abTest(a, b) {
+  if(a < 0 || b < 0) {
+    return undefined;
+  }
+  
+    return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+  }
+  
+  console.log(abTest(2,2));

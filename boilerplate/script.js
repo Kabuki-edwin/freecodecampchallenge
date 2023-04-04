@@ -1,0 +1,1 @@
+const course = "Javascript 101: coding for begginers."

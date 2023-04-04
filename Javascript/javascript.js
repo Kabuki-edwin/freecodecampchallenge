@@ -57,7 +57,7 @@ function testSize(num) {
   }
 
 
-  
+
 //Golf code
   const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 
@@ -202,3 +202,32 @@ function abTest(a, b) {
   }
   
   console.log(abTest(2,2));
+
+//Counting cards
+  let count = 0;
+
+function cc(card) {
+switch(card){
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+  case 6:
+   count++;
+   break;
+  case 10:
+  case "J":
+  case "Q":
+  case "K":
+  case "A":
+   count--;
+   break;
+}
+if(count > 0){
+  return count +" Bet"
+}else {
+  return count + " Hold"
+}
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');

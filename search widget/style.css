@@ -5,7 +5,13 @@
 }
 
 body {
-    background-image: linear-gradient(90deg,#7d5fff,#7158e2);
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(115deg,rgba(15, 15, 20, 0.8),
+    rgba(23, 23, 27, 0.7)),url(WallpaperDog-10852373.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: "Roboto", sans-serif;
     margin: 0;
     display: flex;

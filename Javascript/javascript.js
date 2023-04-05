@@ -285,3 +285,14 @@ const myDogs = {
 
 const theDog = "Happy Coder"
 myDogs.name = theDog
+
+
+//Adding new properties to javascript objects
+const myDogg = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDogg.bark = "woof";

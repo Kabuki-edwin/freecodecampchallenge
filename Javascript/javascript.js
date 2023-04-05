@@ -296,3 +296,15 @@ const myDogg = {
 };
 
 myDogg.bark = "woof";
+
+//Deleting properties from javascript objects
+const myDoggs = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+
+delete myDoggs.tails

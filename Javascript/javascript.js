@@ -231,3 +231,12 @@ if(count > 0){
 }
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
+
+
+//Building Javascript objects
+const myDog = {
+"name" : "Bullet",
+"legs": 4,
+"tails":1,
+"friends":["Scooby","Ray","Rex"]
+};

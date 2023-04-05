@@ -264,7 +264,7 @@ const entreeValue = testObje["an entree"];
 const drinkValue = testObje["the drink"];  
 
 //Accessing object properties using variables
-const testObj = {
+const testOb = {
   12: "Namath",
   16: "Montana",
   19: "Unitas"
@@ -272,4 +272,16 @@ const testObj = {
 
 
 const playerNumber = 16;
-const player = testObj[playerNumber];
+const player = testOb[playerNumber];
+
+//Updating object properties
+const myDogs = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+
+const theDog = "Happy Coder"
+myDogs.name = theDog

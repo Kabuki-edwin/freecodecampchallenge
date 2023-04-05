@@ -262,3 +262,14 @@ const testObje = {
 
 const entreeValue = testObje["an entree"];   
 const drinkValue = testObje["the drink"];  
+
+//Accessing object properties using variables
+const testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+
+const playerNumber = 16;
+const player = testObj[playerNumber];

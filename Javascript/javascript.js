@@ -240,3 +240,14 @@ const myDog = {
 "tails":1,
 "friends":["Scooby","Ray","Rex"]
 };
+
+//Accessing object properties using dot notation
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+
+const hatValue = testObj.hat;     
+const shirtValue = testObj.shirt;    

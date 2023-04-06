@@ -594,4 +594,10 @@ function checkSign(num) {
 function countdown(n){
   return n < 1 ? [] : [n].concat(countdown(n - 1));
 }
+//Recursion to create a range of numbers
+function rangeOfNumbers(startNum, endNum) {
+  return endNum < startNum
+    ? []
+    : rangeOfNumbers(startNum, endNum - 1).concat(endNum);
+}
 

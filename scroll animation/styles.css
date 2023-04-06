@@ -14,3 +14,7 @@ body {
     justify-content: center ;
     overflow: scroll;
 }
+
+h1 {
+    margin: 10px;
+}

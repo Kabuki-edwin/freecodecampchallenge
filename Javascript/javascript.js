@@ -432,3 +432,13 @@ function updateRecords(records, id, prop, value) {
   }
   return records;
 }
+
+
+//Iterate with JavaScript While Loops
+const myArray = [];
+
+var i = 5;
+while (i >= 0){
+  myArray.push(i);
+  i--;
+}

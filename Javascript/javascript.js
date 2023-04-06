@@ -460,7 +460,7 @@ for(let u = 1; u < 10;u += 2 ){
   myyArray.push(u);
 }
 
-//
+//counting backwards with for loop
 const mmyArray = [];
 
 for (let i = 9;i > 0;i -= 2){

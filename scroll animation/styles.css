@@ -5,6 +5,7 @@
 }
 
 body {
+    background: url(alexander-shatov-ENOcRpYwT68-unsplash\ \(1\).jpg) no-repeat center center/cover;
     font-family: "Roboto", sans-serif;
     margin: 0;
     flex-direction: column;

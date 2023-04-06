@@ -43,3 +43,6 @@ h1 {
     transform: translateX(0);
 }
 
+.box h2 {
+    font-size: 50px;
+}

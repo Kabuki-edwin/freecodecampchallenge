@@ -442,3 +442,12 @@ while (i >= 0){
   myArray.push(i);
   i--;
 }
+
+
+//Iterate with JavaScript for Loops
+const theArray = [];
+
+
+for (var i = 1;i <= 5;i++){
+  theArray.push(i)
+}

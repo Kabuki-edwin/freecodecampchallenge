@@ -544,3 +544,12 @@ function lookUpProfile(name, prop){
   }
   return "No such contact";
 }
+
+//Generating random fractions
+function randomFraction() {
+
+
+  return Math.random() ;
+
+
+}

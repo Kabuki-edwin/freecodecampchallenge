@@ -323,4 +323,13 @@ var lookup = {
 };
 result = lookup[val]
   return result;
+} 
+
+//Testing for object propoerties
+function checkObj(obj, checkProp) {
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  } else {
+    return "Not Found";
+  }
 }

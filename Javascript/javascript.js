@@ -498,3 +498,12 @@ do {
   myyyArray.push(i);
   i++;
 } while (i < 5)
+
+//recursion
+function sum(arr, n) {
+  if(n <= 0) {
+    return 0;
+  } else {
+    return sum(arr, n - 1) + arr[n - 1];
+  }
+}

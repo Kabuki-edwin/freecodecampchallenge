@@ -572,3 +572,8 @@ function randomRange(myMin, myMax) {
 function convertToInteger(str) {
   return parseInt(str)
 }
+
+//parseInt function with a Radix
+function convertToInteger(str) {
+  return parseInt(str, 2)
+}

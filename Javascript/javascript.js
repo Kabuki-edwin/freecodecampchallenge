@@ -577,3 +577,9 @@ function convertToInteger(str) {
 function convertToInteger(str) {
   return parseInt(str, 2)
 }
+
+//Conditional operator
+function checkEqual(a, b) {
+  return a === b ? "Equal" : "Not Equal";
+}
+

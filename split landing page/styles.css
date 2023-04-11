@@ -27,5 +27,7 @@ body {
 
 .split.left {
     left: 0;
-    background: url('');
+    background: url('martin-katler-caNzzoxls8Q-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

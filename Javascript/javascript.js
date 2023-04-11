@@ -822,3 +822,18 @@ const makeSserverRequest = new Promise((resolve, reject) => {
     reject("Data not received")
   }
 });
+
+//Handle a fulfilled promise with then
+const makeSerrverRequest = new Promise((resolve, reject) => {
+  // responseFromServer is set to true to represent a successful response from a server
+  let responseFromServer = true;
+    
+  if(responseFromServer) {
+    resolve("We got the data");
+  } else {  
+    reject("Data not received");
+  }
+});
+makeServerRequest.then(result => {
+  console.log(result);
+});

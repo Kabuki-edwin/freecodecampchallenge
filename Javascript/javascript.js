@@ -749,3 +749,13 @@ const bicycle = {
 
 bicycle.setGear(2);
 console.log(bicycle.gear);
+
+//Use class Syntax to Define a Constructor Function
+class Vegetable {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+const carrot = new Vegetable("carrot");
+console.log(carrot.name); // => should be 'carrot'

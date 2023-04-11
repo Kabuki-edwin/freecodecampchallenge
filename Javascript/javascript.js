@@ -601,3 +601,13 @@ function rangeOfNumbers(startNum, endNum) {
     : rangeOfNumbers(startNum, endNum - 1).concat(endNum);
 }
 
+//Comparing the scopes of  let and var keywords
+function checkScope() {
+  let i = 'function scope';
+  if (true) {
+   let i = 'block scope';
+    console.log('Block scope i is: ', i);
+  }
+  console.log('Function scope i is: ', i);
+  return i;
+}

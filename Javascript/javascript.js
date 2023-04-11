@@ -810,3 +810,15 @@ subtract(7,4);
 const makeServerRequest = new Promise((resolve , reject) => {
 
 });
+
+//Completing a promise with resolve and reject
+const makeSserverRequest = new Promise((resolve, reject) => {
+
+  let responseFromServer;
+    
+  if(responseFromServer) {
+     resolve("We got the data");
+  } else {  
+    reject("Data not received")
+  }
+});

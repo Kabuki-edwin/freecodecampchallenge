@@ -739,3 +739,13 @@ const failuresList = makeList(result.failure);
 const createPerson = (name, age, gender) => {
 return {name, age, gender};
 };
+//Write Concise Declarative Functions with ES6
+const bicycle = {
+  gear: 2,
+  setGear(newGear) {
+    this.gear = newGear;
+  }
+};
+
+bicycle.setGear(2);
+console.log(bicycle.gear);

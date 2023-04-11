@@ -644,3 +644,14 @@ const myConcat = (arr1, arr2) => arr1.concat(arr2);
 
 //Setting default parameters for functions 
 const increment = (number, value = 1) => number + value;
+
+
+// Using rest parameter with function parameter
+const sum = (...args) => {
+  let total = 0;
+  for (let i = 0; i < args.length; i++) {
+    total += args[i];
+  }
+  return total;
+}
+console.log(sum(1, 2, 3)); 

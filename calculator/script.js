@@ -13,7 +13,8 @@
         })
     });
 
-        clear.addEventListener('click', function (e) {
+        clear.addEventListener('click',
+        function (e) {
             screen.value = "";
             
         })

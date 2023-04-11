@@ -774,3 +774,12 @@ class Thermostat {
     this._kelvin = celsius + 273.15;
   }
 }
+
+//Use export to share a code block
+export const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+
+export const lowercaseString = (string) => {
+  return string.toLowerCase()
+}

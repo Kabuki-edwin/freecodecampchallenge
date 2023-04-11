@@ -25,6 +25,22 @@ h1 {
     white-space: nowrap;
 }
 
+.btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top:20%;
+    transform:translateX(-50%);
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    width: 15rem;
+    padding: 1.5rem;
+}
+
 .container {
     position: relative;
     width: 100%;

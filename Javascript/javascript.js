@@ -641,3 +641,6 @@ const magic = () =>  new Date()
 
 //Arrow function with parameters
 const myConcat = (arr1, arr2) => arr1.concat(arr2);
+
+//Setting default parameters for functions 
+const increment = (number, value = 1) => number + value;

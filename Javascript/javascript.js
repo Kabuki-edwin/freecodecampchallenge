@@ -638,3 +638,6 @@ const PI = freezeObj();
 
 //Use Arrow Functions to Write Concise Anonymous Functions
 const magic = () =>  new Date() 
+
+//Arrow function with parameters
+const myConcat = (arr1, arr2) => arr1.concat(arr2);

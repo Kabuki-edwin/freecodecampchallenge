@@ -31,3 +31,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.split.right {
+    right: 0;
+    background: url('billy-freeman-DPOdCl4bGJU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

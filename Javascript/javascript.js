@@ -615,12 +615,23 @@ function checkScope() {
 //Mutating an array declared with const
 const s = [5, 7, 2];
 function editInPlace() {
-  // Only change code below this line
-
-  // Using s = [2, 5, 7] would be invalid
 s[0] = 2;
 s[1] = 5;
 s[2] = 7;
-  // Only change code above this line
 }
 editInPlace();
+
+//How to prevent object mutation
+function freezeObj() {
+  const MATH_CONSTANTS = {
+    PI: 3.14
+  };
+Object.freeze(MATH_CONSTANTS)
+  try {
+    MATH_CONSTANTS.PI = 99;
+  } catch(ex) {
+    console.log(ex);
+  }
+  return MATH_CONSTANTS.PI;
+}
+const PI = freezeObj();

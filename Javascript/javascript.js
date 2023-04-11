@@ -655,3 +655,9 @@ const sum = (...args) => {
   return total;
 }
 console.log(sum(1, 2, 3)); 
+
+//The spread operator
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+
+arr2 = [...arr1]; 

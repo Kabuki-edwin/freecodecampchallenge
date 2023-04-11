@@ -800,3 +800,8 @@ stringFunctions.lowercaseString("WORLD!");
 export default function subtract(x, y) {
   return x - y;
 }
+
+//importing a default export
+import subtract from "./math_functions.js"  
+
+subtract(7,4);

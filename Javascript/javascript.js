@@ -881,3 +881,8 @@ let resultt = extractStr.match(codingRegex);
 let twinkleStar = "Twinkle, twinkle, little star";
 let starRegex = /Twinkle/gi; 
 let ressult = twinkleStar.match(starRegex); 
+
+//Matching anything with a wildcard period
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /.un/; // Change this line
+let reesult = unRegex.test(exampleStr);

@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    background-color: rgba(0, 0, 0, o.4);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 20px 40px;
     border-radius: 5px;
 }
@@ -31,4 +31,15 @@ body {
 .container a {
     text-decoration: none;
     color: lightblue;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
 }

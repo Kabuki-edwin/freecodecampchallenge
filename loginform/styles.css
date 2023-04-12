@@ -45,6 +45,10 @@ body {
     border-radius: 5px;
 }
 
+.btn:focus {
+    outline: 0;
+}
+
 .form-control input {
     background-color: transparent;
     border: 0;

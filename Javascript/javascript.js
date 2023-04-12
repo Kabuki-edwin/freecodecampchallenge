@@ -871,3 +871,13 @@ let resullt = petRegex.test(petString);
 let myStriing = "freeCodeCamp";
 let fccRegex = /freecodecamp/i; 
 let resuult = fccRegex.test(myString);
+
+//Extracting matches
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/; 
+let resultt = extractStr.match(codingRegex); 
+
+//How to find more than the first match
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /Twinkle/gi; 
+let ressult = twinkleStar.match(starRegex); 

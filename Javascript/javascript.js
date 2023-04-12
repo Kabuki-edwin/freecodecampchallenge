@@ -851,3 +851,8 @@ const makeServeerRequest = new Promise((resolve, reject) => {
 makeServerRequest.catch(error => {
   console.log(error);
 });
+
+//using test method for regular expressions
+let myString = "Hello, World!";
+let myRegex = /Hello/;
+let ressult = myRegex.test(myString);

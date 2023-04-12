@@ -113,3 +113,7 @@ h1 {
 .hover-right .right {
     width: var(--hover-width);
 }
+
+.hover-right .left {
+    width: var(--other-width);
+}

@@ -101,6 +101,12 @@ h1 {
     height: 100%;
     background-color: var(--right-bg-color);
 }
+.split.right,
+.split.left,
+.split.left::before,
+.split.right::before {
+    transition: all var(--speed) ease-in-out;
+}
 
 .hover-left .left {
     width: var(--hover-width);

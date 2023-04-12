@@ -855,4 +855,9 @@ makeServerRequest.catch(error => {
 //using test method for regular expressions
 let myString = "Hello, World!";
 let myRegex = /Hello/;
-let ressult = myRegex.test(myString);
+let resulting = myRegex.test(myString);
+
+//Matching literal strings
+let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
+let waldoRegex = /Waldo/; 
+let results = waldoRegex.test(waldoIsHiding);

@@ -59,7 +59,7 @@ body {
 
 .form-control {
     position: relative;
-    margin: 20px 0 40px;
+    margin: 20px 0 40px; 
     width: 300px;
 }
 
@@ -77,10 +77,10 @@ body {
 .form-control input:focus,
 .form-control input:valid {
     outline: 0;
-    border-bottom: lightblue;
+    border-bottom-color : lightblue;
 } 
 
-.form-control label {
+.form-control label { 
     position: absolute;
     top: 15px;
     left: 0;
@@ -90,7 +90,7 @@ body {
     display: inline-block;
     font-size: 18px;
     min-width: 5px;
-    transition: 0.3s;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); 
 }
 
 .form-control input:focus + label span,

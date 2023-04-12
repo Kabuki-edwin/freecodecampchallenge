@@ -49,6 +49,10 @@ body {
     outline: 0;
 }
 
+.btn:active {
+    transform: scale(0.98);
+}
+
 .form-control input {
     background-color: transparent;
     border: 0;

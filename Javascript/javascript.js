@@ -899,5 +899,10 @@ let resssult = quoteSample.match(alphabetRegex);
 
 //Match Numbers and Letters of the Alphabet
 let quooteSample = "Blueberry 3.141592653s are delicious.";
-let myyRegex = /[h-s2-6]/gi; // Change this line
-let reeesult = quoteSample.match(myRegex); // Change this line
+let myyRegex = /[h-s2-6]/gi; 
+let reeesult = quoteSample.match(myRegex); 
+
+//Match Single Characters Not Specified
+let quoteSaample = "3 blind mice.";
+let myReggex = /[^0-9^aeiou]/gi; 
+let rresult = quoteSample .match(myRegex); 

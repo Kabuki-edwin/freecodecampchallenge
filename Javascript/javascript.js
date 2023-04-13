@@ -918,3 +918,8 @@ let chewieRegex = /Aa*/;
 
 
 let rreesult = chewieQuote.match(chewieRegex);
+
+//Finding characters with a lazy matching
+let text = "<h1>Winter is coming</h1>";
+let myReggeex = /<.*?>/; // Change this line
+let resulltt = text.match(myRegex);

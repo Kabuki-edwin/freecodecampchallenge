@@ -936,3 +936,8 @@ let resuullt = calRegex.test(rickyAndCal);
 let caboose = "The last car on a train is the caboose";
 let lastRegex = /caboose$/; // Change this line
 let resuuullt = lastRegex.test(caboose);
+
+//Matching all letters and numbers
+let quotteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/g; // Change this line
+let reesssult = quoteSample.match(alphabetRegexV2).length;

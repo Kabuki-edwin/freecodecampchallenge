@@ -931,3 +931,8 @@ let reCriminals = /C+/;
 let rickyAndCal = "Cal and Ricky both like racing.";
 let calRegex = /^Cal/; // Change this line
 let resuullt = calRegex.test(rickyAndCal);
+
+//Match ending string patterns
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/; // Change this line
+let resuuullt = lastRegex.test(caboose);

@@ -923,3 +923,6 @@ let rreesult = chewieQuote.match(chewieRegex);
 let text = "<h1>Winter is coming</h1>";
 let myReggeex = /<.*?>/; // Change this line
 let resulltt = text.match(myRegex);
+
+//Finding one or more characters in a hunt
+let reCriminals = /C+/;

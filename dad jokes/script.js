@@ -4,9 +4,15 @@ const jokeBtn = document.getElementById('jokeBtn')
 generatJoke()
 
 function generatJoke() {
-    fetch ('https://icanhazdadjoke.com', {
+    const config = {
         headers: {
-            'Accept':'application/json'
-        }
+            Accept:'application/json',
+        },
+    }
+
+    fetch ('https://icanhazdadjoke.com', config)
+    .then((res) => res.json())
+    .then((data) => {
+        jokeEl.innerHTML = data.joke 
     })
 }

@@ -1001,3 +1001,9 @@ let reresult = myRegex.test(myString);
 let repeatNum = "42 42 42";
 let reRegex = /^(\d+) \1 \1$/;
 let rreresult = reRegex.test(repeatNum);
+
+//Use capture groups to search and replace
+let str = "one two three";
+let fixRegex = /(\w+)\s(\w+)\s(\w+)/; 
+let replaceText = "$3 $2 $1";
+let resuulltt = str.replace(fixRegex, replaceText);

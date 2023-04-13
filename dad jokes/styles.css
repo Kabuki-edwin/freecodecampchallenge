@@ -50,3 +50,7 @@ h3 {
     font-size: 16px;
     cursor: pointer;
 }
+
+.btn:focus {
+    transform: scale(o.98);
+}

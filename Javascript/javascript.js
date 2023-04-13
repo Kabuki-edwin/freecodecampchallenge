@@ -911,3 +911,10 @@ let rresult = quoteSample .match(myRegex);
 let difficultSpelling = "Mississippi";
 let myyyRegex = /ss+/gi; // Change this line
 let reessult = difficultSpelling.match(myRegex);
+
+//Match characters that occur zero or more times
+let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
+let chewieRegex = /Aa*/; 
+
+
+let rreesult = chewieQuote.match(chewieRegex);

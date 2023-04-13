@@ -979,5 +979,10 @@ let rresultt = haRegex.test(haStr);
 
 //How to specify exact number of matches
 let timStr = "Timmmmber";
-let timRegex = /Tim{4}ber/; // Change this line
+let timRegex = /Tim{4}ber/; 
 let rresuult = timRegex.test(timStr);
+
+//Change for all or none
+let favWord = "favorite";
+let favRegex = /favou?rite/; 
+let ressultt = favRegex.test(favWord);

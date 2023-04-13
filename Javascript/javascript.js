@@ -906,3 +906,8 @@ let reeesult = quoteSample.match(myRegex);
 let quoteSaample = "3 blind mice.";
 let myReggex = /[^0-9^aeiou]/gi; 
 let rresult = quoteSample .match(myRegex); 
+
+//Matching characters that occur once or twice
+let difficultSpelling = "Mississippi";
+let myyyRegex = /ss+/gi; // Change this line
+let reessult = difficultSpelling.match(myRegex);

@@ -926,3 +926,8 @@ let resulltt = text.match(myRegex);
 
 //Finding one or more characters in a hunt
 let reCriminals = /C+/;
+
+//Matching beggining string patterns
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; // Change this line
+let resuullt = calRegex.test(rickyAndCal);

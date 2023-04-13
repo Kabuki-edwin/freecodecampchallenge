@@ -969,5 +969,10 @@ let resuulllt = sample.match(countNonWhiteSpace);
 
 //Specify upper and lower number of matches
 let ohStr = "Ohhh no";
-let ohRegex = /Oh{3,6}\sno/g; // Change this line
-let result = ohRegex.test(ohStr);
+let ohRegex = /Oh{3,6}\sno/g; 
+let reesultt = ohRegex.test(ohStr);
+
+//Specifying only the lower number of matches
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/;
+let rresultt = haRegex.test(haStr);

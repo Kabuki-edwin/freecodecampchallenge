@@ -951,3 +951,8 @@ let rressult = quoteSample.match(nonAlphabetRegex).length;
 let movieName = "2001: A Space Odyssey";
 let numRegex = /\d/g; 
 let reesullt = movieName.match(numRegex).length;
+
+//Restricting possible user names
+let username = "JackOfAllTrades";
+let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i; // Change this line
+let resuultt = userCheck.test(username);

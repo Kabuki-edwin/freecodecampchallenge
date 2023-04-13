@@ -946,3 +946,8 @@ let reesssult = quoteSample.match(alphabetRegexV2).length;
 let quuoteSample = "The five boxing wizards jump quickly.";
 let nonAlphabetRegex = /\W/g; 
 let rressult = quoteSample.match(nonAlphabetRegex).length;
+
+//Matching all numbers
+let movieName = "2001: A Space Odyssey";
+let numRegex = /\d/g; 
+let reesullt = movieName.match(numRegex).length;

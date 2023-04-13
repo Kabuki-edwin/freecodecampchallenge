@@ -989,10 +989,15 @@ let ressultt = favRegex.test(favWord);
 
 //Positive and negative lookaheads
 let sampleWord = "astronaut";
-let pwRegex = /(?=\w{6})(?=\w*\d{2})/; // Change this line
+let pwRegex = /(?=\w{6})(?=\w*\d{2})/; 
 let reesulltt = pwRegex.test(sampleWord);
 
 //Checking for mixed grouping of characters
 let mySstring = "Eleanor Roosevelt";
 let myRregex = /(Franklin|Eleanor) (([A-Z]\.?|[A-Z][a-z]+) )?Roosevelt/;
 let reresult = myRegex.test(myString);
+
+//Reuse patterns using capture groups
+let repeatNum = "42 42 42";
+let reRegex = /^(\d+) \1 \1$/;
+let rreresult = reRegex.test(repeatNum);

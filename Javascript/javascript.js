@@ -986,3 +986,8 @@ let rresuult = timRegex.test(timStr);
 let favWord = "favorite";
 let favRegex = /favou?rite/; 
 let ressultt = favRegex.test(favWord);
+
+//Positive and negative lookaheads
+let sampleWord = "astronaut";
+let pwRegex = /(?=\w{6})(?=\w*\d{2})/; // Change this line
+let reesulltt = pwRegex.test(sampleWord);

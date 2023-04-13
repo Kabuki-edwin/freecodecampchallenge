@@ -896,3 +896,8 @@ let ressuult = quoteSample.match(vowelRegex);
 let quoteeSample = "The quick brown fox jumps over the lazy dog.";
 let alphabetRegex = /[a-z]/gi; 
 let resssult = quoteSample.match(alphabetRegex);
+
+//Match Numbers and Letters of the Alphabet
+let quooteSample = "Blueberry 3.141592653s are delicious.";
+let myyRegex = /[h-s2-6]/gi; // Change this line
+let reeesult = quoteSample.match(myRegex); // Change this line

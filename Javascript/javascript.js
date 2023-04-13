@@ -991,3 +991,8 @@ let ressultt = favRegex.test(favWord);
 let sampleWord = "astronaut";
 let pwRegex = /(?=\w{6})(?=\w*\d{2})/; // Change this line
 let reesulltt = pwRegex.test(sampleWord);
+
+//Checking for mixed grouping of characters
+let mySstring = "Eleanor Roosevelt";
+let myRregex = /(Franklin|Eleanor) (([A-Z]\.?|[A-Z][a-z]+) )?Roosevelt/;
+let reresult = myRegex.test(myString);

@@ -954,5 +954,10 @@ let reesullt = movieName.match(numRegex).length;
 
 //Restricting possible user names
 let username = "JackOfAllTrades";
-let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i; // Change this line
+let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i; 
 let resuultt = userCheck.test(username);
+
+//How to match whitespace
+let sample = "Whitespace is important in separating words";
+let countWhiteSpace = /\s/g; 
+let ressullt = sample.match(countWhiteSpace);

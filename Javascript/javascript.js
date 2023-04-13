@@ -909,7 +909,7 @@ let rresult = quoteSample .match(myRegex);
 
 //Matching characters that occur once or twice
 let difficultSpelling = "Mississippi";
-let myyyRegex = /ss+/gi; // Change this line
+let myyyRegex = /ss+/gi;
 let reessult = difficultSpelling.match(myRegex);
 
 //Match characters that occur zero or more times
@@ -921,7 +921,7 @@ let rreesult = chewieQuote.match(chewieRegex);
 
 //Finding characters with a lazy matching
 let text = "<h1>Winter is coming</h1>";
-let myReggeex = /<.*?>/; // Change this line
+let myReggeex = /<.*?>/; 
 let resulltt = text.match(myRegex);
 
 //Finding one or more characters in a hunt
@@ -929,15 +929,20 @@ let reCriminals = /C+/;
 
 //Matching beggining string patterns
 let rickyAndCal = "Cal and Ricky both like racing.";
-let calRegex = /^Cal/; // Change this line
+let calRegex = /^Cal/; 
 let resuullt = calRegex.test(rickyAndCal);
 
 //Match ending string patterns
 let caboose = "The last car on a train is the caboose";
-let lastRegex = /caboose$/; // Change this line
+let lastRegex = /caboose$/; 
 let resuuullt = lastRegex.test(caboose);
 
 //Matching all letters and numbers
 let quotteSample = "The five boxing wizards jump quickly.";
-let alphabetRegexV2 = /\w/g; // Change this line
+let alphabetRegexV2 = /\w/g; 
 let reesssult = quoteSample.match(alphabetRegexV2).length;
+
+//Match everything but letters and numbers
+let quuoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W/g; 
+let rressult = quoteSample.match(nonAlphabetRegex).length;

@@ -976,3 +976,8 @@ let reesultt = ohRegex.test(ohStr);
 let haStr = "Hazzzzah";
 let haRegex = /Haz{4,}ah/;
 let rresultt = haRegex.test(haStr);
+
+//How to specify exact number of matches
+let timStr = "Timmmmber";
+let timRegex = /Tim{4}ber/; // Change this line
+let rresuult = timRegex.test(timStr);

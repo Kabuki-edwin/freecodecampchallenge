@@ -1012,3 +1012,12 @@ let resuulltt = str.replace(fixRegex, replaceText);
 let hello = "   Hello, World!  ";
 let wsRegex = /^\s+|\s+$/g; 
 let reessuult = hello.replace(wsRegex, "");
+
+// Use javascript cosole to check the value of a variable
+let aa = 5;
+let bb = 1;
+aa++;
+
+console.log(aa)
+let sumAB = aa + bb;
+console.log(sumAB);

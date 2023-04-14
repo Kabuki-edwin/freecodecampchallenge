@@ -1081,3 +1081,14 @@ let base = 2;
 let exp = 3;
 let power = raiseToPower( base, exp);
 console.log(power);
+
+//Catch off by one errors when using indexing
+function countToFive() {
+  let firstFive = "12345";
+  let len = firstFive.length;
+  for (let i = 0; i < len; i++) {
+    console.log(firstFive[i]);
+  }
+}
+
+countToFive();

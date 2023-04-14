@@ -1033,3 +1033,9 @@ let three = "3";
 console.log(seven + three);
 console.log(typeof seven)
 console.log(typeof three)
+
+//Catching misspelled variable and function names
+let receivables = 10;
+let payables = 8;
+let netWorkingCapital = receivables - payables;
+console.log(`Net working capital is: ${netWorkingCapital}`);

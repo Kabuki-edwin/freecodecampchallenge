@@ -1109,3 +1109,10 @@ function zeroArray(m, n) {
 }
 let matrix = zeroArray(3, 2);
 console.log(matrix);
+
+//Prevent infinite loops with a valid terminal condition
+function myFunc() {
+  for (let i = 1; i <= 4; i += 2) {
+    console.log("Still going!");
+  }
+}

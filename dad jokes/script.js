@@ -1,9 +1,11 @@
 const jokeEl = document.getElementById('joke')
 const jokeBtn = document.getElementById('jokeBtn')
 
-generatJoke()
+jokeBtn.addEventListener('click',generatJoke)
 
-function generatJoke() {
+generateJoke()
+
+function generateJoke() {
     const config = {
         headers: {
             Accept:'application/json',

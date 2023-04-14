@@ -1048,3 +1048,16 @@ console.log(`Sum of array values is: ${arraySum}`);
 //catch mixed usage of single and double qoutes
 let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
 console.log(innerHtml);
+
+//Use of assignment operator instead of equality operator
+let x = 7;
+let y = 9;
+let ressuuuult = "to come";
+
+if(x == y) {
+  result = "Equal!";
+} else {
+  result = "Not equal!";
+}
+
+console.log(result);

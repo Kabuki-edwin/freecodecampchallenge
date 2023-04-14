@@ -1044,3 +1044,7 @@ console.log(`Net working capital is: ${netWorkingCapital}`);
 let myArrray = [1, 2, 3];
 let arraySum = myArray.reduce((previous, current) =>  previous + current);
 console.log(`Sum of array values is: ${arraySum}`);
+
+//catch mixed usage of single and double qoutes
+let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
+console.log(innerHtml);

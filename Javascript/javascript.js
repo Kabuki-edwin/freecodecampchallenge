@@ -1116,3 +1116,6 @@ function myFunc() {
     console.log("Still going!");
   }
 }
+
+// Use an array to store a collection of data 
+let yourArray = [1, "string", true ,false,34];

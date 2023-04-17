@@ -1163,3 +1163,11 @@ arr.splice(0,2,'DarkSalmon','BlanchedAlmond')
 }
 
 console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
+
+//Copy array items using slice()
+function forecast(arr) {
+ 
+  return arr.slice(2,4);
+}
+
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));

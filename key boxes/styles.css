@@ -31,4 +31,6 @@ body {
     position: relative;
 }
 
-.key small {}
+.key small {
+    position: absolute;
+}

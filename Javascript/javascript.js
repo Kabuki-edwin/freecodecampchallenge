@@ -1126,3 +1126,14 @@ let myyaArray = ["a", "b", "c", "d"];
 myArray[1] = "not b anymore";
 
 console.log(myyaArray);
+
+//Adding items to an array using unshift() and push() method
+function mixedNumbers(arr) {
+
+arr.unshift('I', 2, 'three');
+arr.push(7, 'VIII', 9)
+
+  return arr;
+}
+
+console.log(mixedNumbers(['IV', 5, 'six']));

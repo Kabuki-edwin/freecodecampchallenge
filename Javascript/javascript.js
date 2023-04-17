@@ -1119,3 +1119,10 @@ function myFunc() {
 
 // Use an array to store a collection of data 
 let yourArray = [1, "string", true ,false,34];
+
+//Using bracket notation to access the contents of an array
+let myyaArray = ["a", "b", "c", "d"];
+
+myArray[1] = "not b anymore";
+
+console.log(myyaArray);

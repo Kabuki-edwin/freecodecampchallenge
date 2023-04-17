@@ -1012,3 +1012,107 @@ let resuulltt = str.replace(fixRegex, replaceText);
 let hello = "   Hello, World!  ";
 let wsRegex = /^\s+|\s+$/g; 
 let reessuult = hello.replace(wsRegex, "");
+
+// Use javascript cosole to check the value of a variable
+let aa = 5;
+let bb = 1;
+aa++;
+
+console.log(aa)
+let sumAB = aa + bb;
+console.log(sumAB);
+
+//Understanding difference between freecodecamp and browser console
+let output = "Get this to show once in the freeCodeCamp console and not at all in the browser console";
+console.log(output)
+console.clear()
+
+//Using type of to check the type of variable
+let seven = 7;
+let three = "3";
+console.log(seven + three);
+console.log(typeof seven)
+console.log(typeof three)
+
+//Catching misspelled variable and function names
+let receivables = 10;
+let payables = 8;
+let netWorkingCapital = receivables - payables;
+console.log(`Net working capital is: ${netWorkingCapital}`);
+
+//Catch Unclosed Parentheses, Brackets, Braces and Quotes
+let myArrray = [1, 2, 3];
+let arraySum = myArray.reduce((previous, current) =>  previous + current);
+console.log(`Sum of array values is: ${arraySum}`);
+
+//catch mixed usage of single and double qoutes
+let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
+console.log(innerHtml);
+
+//Use of assignment operator instead of equality operator
+let x = 7;
+let y = 9;
+let ressuuuult = "to come";
+
+if(x == y) {
+  result = "Equal!";
+} else {
+  result = "Not equal!";
+}
+
+console.log(result);
+
+//Catch  missing opening and closing parenthesis from function calls 
+function getNine() {
+  let x = 6;
+  let y = 3;
+  return x + y;
+}
+
+let resullttt = getNine();
+console.log(result);
+
+//Catch arguments passed in the wrong order when calling a function
+function raiseToPower(b, e) {
+  return Math.pow(b, e);
+}
+
+let base = 2;
+let exp = 3;
+let power = raiseToPower( base, exp);
+console.log(power);
+
+//Catch off by one errors when using indexing
+function countToFive() {
+  let firstFive = "12345";
+  let len = firstFive.length;
+  for (let i = 0; i < len; i++) {
+    console.log(firstFive[i]);
+  }
+}
+
+countToFive();
+
+//Use caution when reinitializing variables
+function zeroArray(m, n) {
+  let newArray = [];
+  for (let i = 0; i < m; i++) {
+    let row = []; /* <-----  row has been declared inside the outer loop. 
+     Now a new row will be initialised during each iteration of the outer loop allowing 
+     for the desired matrix. */
+    for (let j = 0; j < n; j++) {
+      row.push(0);
+    }
+    newArray.push(row);
+  }
+  return newArray;
+}
+let matrix = zeroArray(3, 2);
+console.log(matrix);
+
+//Prevent infinite loops with a valid terminal condition
+function myFunc() {
+  for (let i = 1; i <= 4; i += 2) {
+    console.log("Still going!");
+  }
+}

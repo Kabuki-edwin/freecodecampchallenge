@@ -47,6 +47,7 @@ h1 {
     left: 20px;
     z-index: 0;
 }
+
 .faq.active::before {
     color: #3498db;
     top: -10px;
@@ -65,4 +66,20 @@ h1 {
 
 .faq.active .faq-text {
     display: block;
+}
+
+.gaq-toggle {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
 }

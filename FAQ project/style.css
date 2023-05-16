@@ -87,3 +87,7 @@ h1 {
 .faq-toggle .fa-times {
     display: none;
 }
+
+.faq.active .faq-toggle .fa-times {
+    display: block;
+}
